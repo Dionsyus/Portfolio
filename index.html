@@ -1,41 +1,45 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link href=".src/output.css" rel="stylesheet"/>
+        <link href="./src/output.css" rel="stylesheet"/>
     </head>
     <body>
-        <nav class="flex flex-row justify-between
-        bg-yellow-500">
-            <p>Prakash</p>
-            <ul>
+        <nav class="flex flex-row items-center justify-between
+        bg-blue-500 p-3 m-5 rounded-xl">
+            <p class="italic text-white p-4 font-bold">Prakash</p>
+            <ul class="m-4 text-white font-bold flex flex-row gap-4 item-center">
                 <li>Home</li>
                 <li>About</li>
             </ul>
-            <img src="https://avatars.githubusercontent.com/u/106588509?s=400&u=1f53dcf702a405aa0af66f2c0dfd961d390458e3&v=4"
-            class="w-12 h-12 rounded-full"/>
+            <img src="https://media.licdn.com/dms/image/D4D03AQEMo6GU6yyjQA/profile-displayphoto-shrink_400_400/0/1699087363494?e=1711584000&v=beta&t=51pMXbJCT1S0cID4igbM1_n49uHsI8RgSFe-r0VCNtc"
+            class="w-12 h-12 rounded-full p-2 mt-1"/>
         </nav>
-        <div class="flex flex-row items-center mx-12 justify-between">
+        <div class="mt-48 flex flex-row items-center mx-12 justify-between">
             <!--  outer container -->
             <div class="w-2/3 flex flex-col gap-4">
-                <p class="italic text-sm">Hey, I am Prakash</p>
+                <p class="italic text-md">Hey, I am Prakash</p>
                 <div class="text-5xl font-bold">
-                    <p class="">FRONTEND</p>
+                    <p class="text-blue-500">FRONTEND</p>
                     <p>DEVELOPER</p>
                 </div>
-                <p class="text-sm w-3/4">I am a frontend developer based in india</p>
-                <button class="p-4 bg-orange-400 rounded-xl
-                 font-bold text-white">Get in touch</button>
-                 <button class="p-4 bg-orange-400 rounded-xl
-                 font-bold text-white">Browse Project</button>
+                <p class="text-sm w-3/4 leading-relaxed text-justify font-mono">I am a frontend developer based in india.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto est officiis nulla perferendis, deleniti quibusdam quod blanditiis! Ea similique dolor aspernatur officiis voluptatem sunt, dicta ullam
+                </p>
+                <div class="flex gap-4">
+                    <button class="py-4 px-8 bg-blue-500 rounded-xl
+                    font-bold text-white p-4">Get in touch</button>
+                    <button class="py-4 px-8 bg-blue-500 rounded-xl
+                    font-bold text-white p-4">Browse Projects</button>
+                </div>
+                
             </div>
             <!-- // left -->
-            <div class="border
-            border-purple-500 
-            rounded-full p-8 w-2/5">
-                <img src="https://avatars.githubusercontent.com/u/106588509?s=400&u=1f53dcf702a405aa0af66f2c0dfd961d390458e3&v=4"
+            <div class="border border-orange-500 rounded-full p-8">
+                <img src="https://media.licdn.com/dms/image/D4D03AQEMo6GU6yyjQA/profile-displayphoto-shrink_400_400/0/1699087363494?e=1711584000&v=beta&t=51pMXbJCT1S0cID4igbM1_n49uHsI8RgSFe-r0VCNtc"
                 class="rounded-full"/>
+                
             </div>
             <!-- // right -->
         </div>
